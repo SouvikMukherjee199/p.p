@@ -311,8 +311,9 @@ footer{
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Fira+Sans+Condensed:wght@300&family=Source+Code+Pro:wght@300&display=swap');
  .container{
     display:flex;
-    height: 100vh;
-
+    height: 600px;
+    /* border: #00224D 2px solid; */
+    
  }
 
   .sidebar nav{
@@ -335,12 +336,14 @@ footer{
     background-color: #FDFFC2;
     width: 400px;
     font-family: 'Fira Sans', sans-serif;
-    height:1410px;
+    height:600px;
 }
 
 .main{
     background-color: rgb(255, 255, 255);
     width:90vw;
+    /* border: #00224D 2px solid; */
+    height: 600px;
 }
 
 .infocontainer{
@@ -351,6 +354,7 @@ footer{
     display:flex;
     flex-direction: column-reverse;
     justify-content:space-around;
+    /* border: #06D001 2px solid; */
 }
 
 .Devinfo{
@@ -525,6 +529,7 @@ margin: 10px 0px;
 
   .intro{
   width:60vw;
+  height:300px;
   }
 .intro h2{
   font-family: 'Fira Sans', sans-serif;
@@ -616,7 +621,8 @@ margin: 10px 0px;
  .container{
     display:flex;
     height: 100vh;
-
+    
+    
  }
 
   .sidebar nav{
@@ -629,6 +635,7 @@ margin: 10px 0px;
     padding:33px 0;
   }
 
+  
   .sidebar nav li a
   {
     text-decoration: none;
